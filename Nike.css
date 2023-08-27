@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.logoImg 
+{
+    width: 5vw;
+}
+
+.nav ul 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    font-size: 1.5rem;
+    
+}
+
+.nav ul li
+{
+    list-style-type: none;
+}
+
+.nav ul li a
+{
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    color: Black;
+    text-decoration: none;
+}
+
+.login
+{
+    width: 130px;
+    font-size: 25px;
+    background-color: red;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+}
+
+main
+{
+    position: relative;
+    left: 25%;
+    margin-top: 15vh;
+    display: flex;
+}
+
+.desc
+{
+    display: block;
+    width: 450px;
+}
+
+.desc h1
+{
+    font-size: 5rem;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+
+.text
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+#shoes
+{
+    transition: transform 0.10s ease;
+}
+
+@keyframes zoomRotateAnimation {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    25% {
+      transform: rotate(45deg) scale(1.2);
+    }
+    50%
+    {
+        transform: rotate(90deg) scale(1.2);
+    }
+    75%
+    {
+        transform: rotate(180deg) scale(1.2);
+    }
+    100%
+    {
+        transform: rotate(360deg) scale(1.2);
+    }
+  }
+  
+  .image {
+    animation: zoomRotateAnimation 5s ease-in-out forwards;
+  }
+.downButtons
+{
+    position: relative;
+    left: 25%;
+    margin-top: 20px;
+    display: flex; /* Flex display to align buttons */
+    gap: 20px;
+}
+
+.shopNow
+{
+    width: 150px;
+    font-size: 25px;
+    background-color: red;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    margin-left: 2px;  
+}
+
+.category
+{
+    width: 150px;
+    font-size: 25px;
+    background-color: red;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    margin-left: 2px;  
+}
+
+.foots
+{
+    position: relative;
+    left: 25%;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.icon
+{
+    font-size:25px ;
+    padding-left: 5px ;
+    padding-top: 5px;
+}
